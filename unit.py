@@ -13,7 +13,7 @@ class length:
     self.list['m'] = 0.001
     self.list['gan'] = 0.00181818182
     self.list['jung'] = 0.109090909
-    self.list['re']0.392727273
+    self.list['re'] = 0.392727273
     self.list['km'] = 1
     self.list['mile'] = 1.609344
     self.list['he_re'] = 1.852
