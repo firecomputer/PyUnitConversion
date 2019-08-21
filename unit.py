@@ -25,12 +25,11 @@ class length:
     self.c = 0         #ratio of unit1 and unit2
    
   def calc(self, unit1, unit2, count):     #calculate unit1 to unit2
-    if(unit1 in self.list == True and unit2 in self.list == True):  #if unit1 and unit2 exist in the list
       self.a = self.list.get(unit1)
       self.b = self.list.get(unit2)
    
   
-      self.c = self.b / self.a    #calculate ratio
+      self.c = self.a / self.b    #calculate ratio
       self.a = count;       #define if unit1 is count
       self.b = self.a * self.c      #multiply ratio and unit1
       self.result = self.b      
